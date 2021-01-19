@@ -2,7 +2,7 @@ const express = require("express");
 const nodemailer = require("nodemailer");
 const bodyParser = require("body-parser");
 const app = express();
-const GMAIL_USER = "maneetlodha28@gmail.com";
+const GMAIL_USER = "fineshineudr@gmail.com";
 
 require("dotenv").config();
 const cors = require("cors");
@@ -19,7 +19,7 @@ app.post("/contact", (req, res) => {
     secure: true,
     auth: {
       user: GMAIL_USER,
-      pass: "manujain@28",
+      pass: "kalpitdhawal20",
     },
   });
 
