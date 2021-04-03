@@ -36,7 +36,7 @@ app.post("/contact", (req, res) => {
     if (error) {
       res.json(error); // Show a page indicating failure
     } else {
-      res.redirect("https://fineshine.netlify.app/");
+      res.redirect("https://www.wekare.co.in/");
     }
   });
 });
