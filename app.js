@@ -28,7 +28,7 @@ app.post("/contact", (req, res) => {
     from: "Your sender info here", // This is ignored by Gmail
     to: GMAIL_USER,
     subject: "New message from contact form at ",
-    text: `${req.body.name} (${req.body.email}) says: ${req.body.message}`,
+    text: `${req.body.name} (${req.body.email}) says: ${req.body.message} contact: ${req.body.phone}`,
   };
 
   // Attempt to send the email
